@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+    color: gray;
+}
+div.bar
+{
+    height:.3vw;
+    width:10%;
+    margin:10vw;
+    background-color:darkgray;
+    position: relative;
+    border-radius: .5vw;
+    box-shadow:0px 0px 5px -1px dimgray inset;
+}
+div.cost_bar
+{
+    height: .3vw;
+    width:100%;
+    color:gray;
+    max-width:100%;
+    background-color:cornflowerblue;
+    position: relative;
+    box-shadow:0px 0px 3px -1px dimgray inset;
+}
+div.circle_start,div.circle_end
+{
+    top:-.7vw;
+    height: 2vw;
+    width:2vw;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow:0px 0px 5px -3px black inset;
+    z-index: 100;
+
+}
+div.circle_start
+{
+    left: -1vw ;
+}
+div.circle_end
+{
+   left:calc(100% - 1vw);
+}
+div.show_cost
+{
+    margin:5%;
+}
